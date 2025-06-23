@@ -38,3 +38,34 @@ body{
     margin:0;
 }
 
+ul{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:20%;
+    position:fixed;
+    left:0;
+    background-color:black;
+}
+ul li{
+    list-style:none;
+}
+ul li a{
+    display:block;
+    font-size:2rem;
+    padding:5%;
+    color:white;
+    position: relative;
+}
+
+.Wrapper{
+    margin-left:20%;
+}
+.Main{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+.Space{
+    width:100%;
+}
