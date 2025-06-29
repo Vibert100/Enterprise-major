@@ -1,0 +1,163 @@
+body{
+    padding-top:10vh;
+    margin:0px;
+}
+header{
+    background-color:rgb(0, 0, 0);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0;
+    position:fixed;
+    width:100%;
+    height:10vh;
+    top:0;
+   
+}
+#Logo_container{
+    margin-top:1vh;
+    margin-bottom:1vh;
+    margin-left:1%;
+}
+
+.Logo{
+    margin:0;
+    width:8vh;
+}
+.Searchbox_container{
+    margin-right:3%;
+}
+
+#Searchbox{
+    position:absolute;
+    top:50%;
+    right:4.5%;
+    transform:translateY(-50%);
+    width:25vh;
+    padding:0.7vh;
+    outline:none;
+    display:none;
+}
+.Searchbox_container.active #Searchbox{
+    display:inline;
+}
+#Icon_cont{
+    background:none;
+    border:none;
+}
+#Icon_close{
+    position:absolute;
+    padding:0.9vh;
+    top:50%;
+    right:3.5%;
+    transform:translateY(-50%);
+    display:none;
+    background:rgb(230, 230, 230);
+    cursor: pointer;
+    border:none;
+    
+}
+.Search_icon{
+    width:4vh;
+    cursor: pointer;
+}
+.Autofill_list{
+    width:26vh;
+    right:4.85%;
+    position:absolute;
+    top:47%;
+    list-style:none;
+
+}
+.Autocomplete_list{
+    padding:6px;
+    color:black;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(255, 255, 255);
+    border-left:2px;
+    border-top:0.5px;
+    border-bottom:0.5px;
+    border-style:solid;
+    border-color:lightgray;
+}
+.Autocomplete_list:hover{
+    background-color:rgb(220, 220, 220);
+}
+.list{
+    width:100%;
+}
+.Navigation a{
+    position: relative;
+    color:rgb(255, 255, 255);
+    font-size:22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:22px;
+    text-decoration:none;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+
+.Navigation a:after{
+    content:"";
+    position:absolute;
+    background-color:white;
+    height:2px;
+    left:0;
+    width:0;
+    bottom:-8px;
+    transition:0.5s;
+}
+
+.Navigation a:hover:after{
+    width:100%;
+
+}
+
+main{
+    text-align: center;
+}
+footer{
+    height:14vh;
+    background-color:black;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#Social_Div{
+    margin-left:30%;
+}
+#Social_Div img{
+    margin-left:10px;
+    margin-right:10px;
+}
+.Footer_div{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-bottom:0;
+    height:14vh;
+}
+.Footer_div h3{
+    margin-bottom:0;
+    margin-top:5px;
+}
+.Social_links img{
+    width:6vh;
+    margin-top:1vh;
+    margin-left:0.3vh;
+    margin-right:0.3vh;
+}
+.Social_links h3{
+    display:flex;
+    justify-content:center;
+
+}
+.Contacts h3{
+    display:flex;
+    justify-content:center;
+
+}
+.Logo_footer{
+    width:9vh;
+}

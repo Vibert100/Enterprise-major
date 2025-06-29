@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Contact_page_style.css">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title>Macfields gym</title>
+</head>
+
+
+<body>
+<header>
+    <a id="Logo_container" href="../Home_page/Home_page.html"><img class="Logo" src="../Header_images/GYM_Logo.png"></a>
+    <nav class="Navigation">
+        <a href="../Training_page/Training_page.html">Training</a>
+        <a href="../Features_page/Features_page.html">Features</a>
+        <a href="../Membership_page/Membership_page.html">Membership</a>
+        <a href="../Tips_page/Tips_page.html">Tips</a>
+        <a href="../Contact_page/Contact_page.html">Contact</a>
+        <a href="../About_page/About_page.html">About</a>
+        <a href="../Location_page/Location_page.html">Location</a>
+
+
+    </nav>
+    <div class="Searchbox_container">
+        <button id="Icon_cont"><img class="Search_icon" src="../Header_images/Search_icon.png"></button>
+        <form autocomplete="off">
+        <input type="text" id="Searchbox" placeholder="Search...">
+        <ul class="Autofill_list"></ul>
+        </form>
+        <button id="Icon_close">X</button>
+        
+    </div>
+    
+</header>
+
+<main>
+
+<div id="Double_Column_Container">
+    <div class="Double_column">
+        <p> Our gym highly values the opinions of our customers. To ensure the continued success of our gym
+            we would appreciate if you would rate our gym down below. If you have any questions or suggestions
+            you can call us at 0123456789 or email us at Macfields_gym@gmail.com.
+        </p>
+    </div>
+    <div class="Double_column"><img id="Double_column_image" src="Reception_image.jpeg"></div>
+</div>
+
+<h1>Feedback </h1>
+<form action="../Joined_page/Joined_page.html">
+<div class="Entry_container">
+        <label>First name (required)</label>
+        <input type="text" required>
+        <label>Last name (required)</label>
+        <input type="text" required>
+        <label>Email (required)</label>
+        <input type="text" required>
+        <label>Would you recommened us? (required)</label>
+        <select id="Recommend_dropdown" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <label>How many stars would you rate us?(required)</label>
+        <select id="Stars_dropdown" required>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+        </select>
+        <input type="submit" id="Submit_input">
+</div>
+</form>
+
+</main>
+
+<footer>
+    <div class="Footer_div">
+        <a id="Logo_container" href="../Home_page/Home_page.html"><img class="Logo_footer" src="../Header_images/GYM_Logo.png"></a>
+        <div class="Social_links">
+            <h3>Follow us</h3>
+            <a href="https://x.com/?lang=en"><img src="../Footer_images/X_icon.png" alt="Logo"></a>
+            <a href="https://www.instagram.com/"><img src="../Footer_images/Instagram_icon.png" alt="Logo"></a>
+            <a href="https://www.facebook.com/login/"><img src="../Footer_images/facebook_icon.png" alt="Logo"></a>
+            <a href="https://www.youtube.com/"><img src="../Footer_images/Youtube_icon.png" alt="Logo"></a>
+        </div>
+        <div class="Contacts">
+            <h3>Contacts</h3>
+            <h3>Email:Macfields_gym@gmail.com</h3>
+            <h3>Phone number:0454 331 982</h3>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    </footer>
+
+<script src="Contact_page_function.js"></script>
+</body>
