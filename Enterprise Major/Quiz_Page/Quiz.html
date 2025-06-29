@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="Quiz.css">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title> Student mental health </title>
+<head>
+
+
+</head>
+
+
+
+
+<body>
+
+<header>
+    <nav class="Pages">
+        <a href="../Home_page/Home_page.html">Home</a>
+        <a href="../Data_Page/Data_Page.html">Data</a>
+        <a href="../Rescources_Page/Rescources_page.html">Rescources</a>
+
+
+        
+    </nav>
+
+</header>
+
+<div class="Quiz_Container">
+    <form id="Recommender_Form">
+        <div class="Questions">
+            <label>Rate your sleep quality 1 very bad - 5 perfect</label>
+                <select name="Sleep" required>
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 </option>
+            </select>
+        </div>
+
+        <div class="Questions">
+            <label>How many times do you exercise a week?</label>
+                <select name="Exercise" required>
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 </option>
+            </select>
+        </div>
+
+        <div class="Questions">
+            <label>Are you stressed academically?</label>
+                <select name="Academics" required>
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 </option>
+            </select>
+        </div>
+
+        <div class="Questions">
+            <label>Are you stressed socially?</label>
+                <select name="Social" required>
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 </option>
+            </select>
+        </div>
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+    <div class="Recommendation_Articles">
+        <div id="Sleep_Reco" class="Article_Result">
+            <div class="Triple_Column">
+            <h2>Recommended Article</h2>
+            <img class="Square_Img" src="Sleep_ArticlePic.jpeg">
+            <h2>Sleep effect on stress</h2>
+            <p>Research has shown that insufficient amounts of sleep have significant impacts on stress, concentration, mood and more. Find out what the optimal amount of sleep is and methods to improve sleep quality.</p>
+            <a href="https://www.bannerhealth.com/healthcareblog/teach-me/how-sleep-can-affect-stress" class="Triple_Btn">Read more</a>
+        </div>
+
+        </div>
+        <div id="Exercise_Reco" class="Article_Result">
+            <div class="Triple_Column">
+            <h2>Recommended Article</h2>
+            <img class="Square_Img" src="Exercise_Pic.jpg">
+            <h2>Exercise effect on stress </h2>
+            <p>Regular exercise has been proven to improve stress and improve mood, learn how to stick to your fitness goals and achieve the physical and mental benefits of exercise.</p>
+            <a href="https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/exercise-and-stress/art-20044469" class="Triple_Btn">Read more</a>
+            </div>
+        </div>
+
+        <div id="Academic_Reco" class="Article_Result">
+            <div class="Triple_Column">
+                <h2>Recommended Article</h2>
+                <img class="Square_Img" src="Study_Pic.jpg">
+                <h2>Managing school stress </h2>
+                <p>Many students struggle with managing school stress, find out useful strategies to take care of your mental wellbeing during school such as time management.</p>
+                <a href="https://headspace.org.au/explore-topics/supporting-a-young-person/school-stress/" class="Triple_Btn">Read more</a>
+            </div>
+        </div>
+
+        <div id="Social_Reco" class="Article_Result">
+            <div class="Triple_Column">
+                <h2>Recommended Article</h2>
+                <img class="Square_Img" src="Talking_Pic.jpg">
+                <h2>Social anxiety </h2>
+                <p>Relationships can be stressful, learn the value of building strong relationships and find out strategies to better socialise with peers.</p>
+                <a href="https://socialskillscenter.com/10-tips-to-help-introverts-with-socializing-abilities/#:~:text=By%20practicing%20active%20listening%2C%20showing,being%20yourself%2C%20trying%20to%20see" class="Triple_Btn">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="Quiz.js"></script>
+
+</body>
+</html>
