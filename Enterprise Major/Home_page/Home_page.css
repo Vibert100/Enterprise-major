@@ -43,51 +43,85 @@ header{
 body{
     margin:0;
 }
+.Msg_Cont{
+    margin-top:3%;
+    margin-bottom:3%;
+    margin-left:20%;
+    margin-right:20%;
+    text-align:center;
+    font-size:1.3rem;
+}
+
 
 .Large_Image{
     width:100%;
-    height:80vh;
+    height:70vh;
+    margin-top:10vh;
     background-position: center;
     background-size:cover;
     background-image:url("Home_large_img.jpeg");
 }
 .Overlay{
     width:100%;
-    height:80vh;
+    height:70vh;
     background-color:rgba(17, 17, 17, 0.3);
     display: flex;
 
 }
+.CTA{
+    color:white;
+    margin-top:2%;
+    margin-left:7%;
+    margin-right:10%;
+    font-size:1.5rem;
+}
+.CTA p{
+    margin-bottom:10px;
+}
+.Art_Rec{
+    margin-left:7.5%;
+    margin-top:12vh;
+}
+.Art_Rec p{
+    margin-bottom:1%;
+}
+#Aheading{
+    margin-left:7.5%;
+    margin-top:3%;
+}
+h2{
+    padding:5px;
+}
 .Full_Container .Square_Img{
     width:100%;
-    aspect-ratio:2/1;
+    aspect-ratio:5/3;
 }
 .Full_Container{
     display:flex;
     justify-content:space-between;
     margin-left:5%;
     margin-right:5%;
-    padding-bottom:10%;
-   
+    padding-bottom:3%;
+    margin-bottom:1%;
     
 }
 
 .Article_H{
-    margin-left:9%;
+    margin-left:7.5%;
 }
 
 .Triple_Column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width:33%;
-    margin-left:4%;
-    margin-right:4%;
+    margin-left:3%;
+    margin-right:3%;
     border-radius:10px;
     overflow: hidden;
     background-color:rgb(179, 191, 250);
+    box-shadow:0 0 5px gray;
     font-size:1.2rem;
-    
-    
-    
-    
 }
 .Triple_Column p{
     padding-left:5px;
@@ -106,6 +140,7 @@ body{
     text-decoration:none;
     border-radius:5px;
     margin-bottom:10px;
+    margin-right:67%;
     color:white;
     margin-left:5px;
 
@@ -113,17 +148,27 @@ body{
 
 
 
-
 .Double_column{
     display:flex;
     align-items:center;
-    margin-left:12%;
-    margin-right:12%;
+    margin-left:6%;
+    margin-right:6%;
     
 }
-#Column_Img{
-    width:100%;
-    height:50vh;
+.Text_Column{
+    padding:10px;
+    margin-right:5%;
+
+}
+.Text_Column p{
+    margin-bottom:2.5%;
+
+}
+.Double_column iframe{
+    height:55vh;
+    width:60%;
+
+    
 }
 .Study_Img{
     width:50%;
@@ -134,4 +179,17 @@ body{
     margin:0;
     text-align:center;
     font-size:2rem;
+}
+.Data_Button{
+    display:inline-block;
+    align-self: flex-start;
+    padding:10px;
+    background-color:rgb(24, 24, 95);
+    text-decoration:none;
+    border-radius:5px;
+    margin-bottom:10px;
+    color:white;
+    margin-left:5px;
+
+
 }
